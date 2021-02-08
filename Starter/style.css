@@ -1,7 +1,6 @@
 .container {
   max-width: 960px;
 }
-
 /*
  * Custom translucent site header
  */
@@ -27,4 +26,36 @@
   .flex-md-equal > * {
     flex: 1;
   }
+}
+
+#form_container
+{
+	padding:15px 15px;
+	margin-top:15px;
+	background: rgba(0,0,0,0.5);
+	color:#fff;
+}
+.upload-btn-wrapper
+{
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file]
+{
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.contact-section
+{
+	background-color: #000;
+	background-image: url("stduio-2035349_1280.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+
 }
